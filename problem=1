@@ -1,0 +1,15 @@
+class problem1 {
+    public static void main(String[] args) {
+        //System.out.println("Hello, World!");
+       int sum=0;
+       int limit=1000;
+        //System.out.println(arr.length);
+        for (int i=3; i<limit; i=i+3){
+        sum=sum+i;
+        }    
+        for (int i=5; i<limit; i=i+5){
+        sum=sum+i;
+        }
+        System.out.println(sum);
+    }
+}
